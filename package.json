@@ -23,11 +23,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AnalyticalGraphicsInc/cesium.git"
+    "url": "https://github.com/Layu/cesium.git"
   },
   "bugs": {
-    "url": "https://github.com/AnalyticalGraphicsInc/cesium/issues",
-    "email": "cesium-dev@googlegroups.com"
+    "url": "https://github.com/Layu/cesium/issues",
+    "email": "enlosph@gmail.com"
   },
   "dependencies": {
     "requirejs": "^2.3.2"

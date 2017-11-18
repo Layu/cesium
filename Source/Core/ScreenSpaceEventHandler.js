@@ -140,6 +140,7 @@ define([
 
         var button = event.button;
         screenSpaceEventHandler._buttonDown = button;
+        screenSpaceEventHandler._mouseEvent = event;
 
         var screenSpaceEventType;
         if (button === MouseButton.LEFT) {
@@ -657,6 +658,7 @@ define([
      */
     function ScreenSpaceEventHandler(element) {
         this._inputEvents = {};
+        this._mouseEvent = {};
         this._buttonDown = undefined;
         this._isPinching = false;
         this._lastSeenTouchEvent = -ScreenSpaceEventHandler.mouseEmulationIgnoreMilliseconds;
